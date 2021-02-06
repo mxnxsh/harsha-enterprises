@@ -1,0 +1,166 @@
+.nav_urls {
+  font-size: 20px;
+}
+
+#home {
+  background-color: #e7e7de;
+  height: 500px;
+}
+#home .container .row {
+  padding-top: 90px;
+}
+
+.home_image {
+  width: 280px;
+  margin-left: 60px;
+}
+
+.home_video {
+  height: 280px;
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title {
+  font-family: 'Raleway';
+}
+
+.pop_img {
+  height: 310px;
+  width: 100%;
+}
+
+#about {
+  background-color: #e7e7de;
+}
+.about_description {
+  padding: 10px 25px;
+  font-family: 'Raleway';
+  font-size: 20px;
+}
+
+.contact_details {
+  position: fixed;
+  top: 70%;
+  right: 10px;
+}
+/* .contact_container{
+    background-color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+} */
+
+#whats_app {
+  color: rgb(101, 216, 101);
+  font-size: 30px;
+  border-radius: 50%;
+  font-weight: 800;
+}
+#call {
+  color: black;
+  font-size: 25px;
+}
+#gmail {
+  color: red;
+  font-size: 26px;
+  border-radius: 50%;
+}
+
+.footer-2 {
+  /* position: fixed;
+   left: 0;
+   bottom: 0; */
+  width: 100%;
+  background-color: #0f3057;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-copyright p {
+  color: #fff;
+  margin: 2px 0 0;
+}
+
+/*----------------Moto G5 / Galaxy S5----------------*/
+@media (min-device-width: 355px) and (max-device-width: 365px) {
+  #home {
+    height: 680px;
+  }
+  .home_image {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_video {
+    padding-top: 20px;
+    width: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home .container .row {
+    padding-top: 45px;
+  }
+  .main_card {
+    margin-bottom: 20px;
+  }
+}
+
+/*----------------Pixel 2 / Pixel 2XL----------------*/
+@media (min-device-width: 410px) and (max-device-width: 415px) {
+  #home {
+    height: 680px;
+  }
+  .home_image {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_video {
+    padding-top: 20px;
+    width: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home .container .row {
+    padding-top: 45px;
+  }
+  .main_card {
+    margin-bottom: 20px;
+  }
+}
+
+/*----------------iPhone X----------------*/
+@media (min-device-width: 374px) and (max-device-width: 380px) {
+  #home {
+    height: 680px;
+  }
+  .home_image {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_video {
+    padding-top: 20px;
+    width: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home .container .row {
+    padding-top: 45px;
+  }
+  .main_card {
+    margin-bottom: 20px;
+  }
+}
