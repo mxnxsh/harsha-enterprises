@@ -37,7 +37,7 @@
 }
 
 #about {
-  background-color: #e7e7de;
+  background-color: white;
 }
 .about_description {
   padding: 10px 25px;
@@ -56,6 +56,10 @@
     border-radius: 50%;
 } */
 
+#contact{
+  background-color: #e7e7de;
+}
+
 .contact_form{
   width: 460px;
 }
@@ -63,7 +67,7 @@
 .contact{
   height: 80px;
   width: 80px;
-  background-color: #e7e7de;
+  background-color: white;
   border-radius: 50%;
 }
 .contact > div{
