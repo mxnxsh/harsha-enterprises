@@ -1,3 +1,15 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 .nav_urls {
   font-size: 20px;
 }
@@ -56,31 +68,31 @@
     border-radius: 50%;
 } */
 
-#contact{
+#contact {
   background-color: #e7e7de;
 }
 
-.contact_form{
+.contact_form {
   width: 460px;
 }
 
-.contact{
+.contact {
   height: 80px;
   width: 80px;
   background-color: white;
   border-radius: 50%;
 }
-.contact > div{
+.contact > div {
   text-align: center;
   font-size: 30px;
   color: black;
   padding-bottom: 2px;
 }
-.contact > div > i{
+.contact > div > i {
   padding-top: 24px;
 }
 
-.contact_number{
+.contact_number {
   transform: scaleX(-1);
 }
 
@@ -105,7 +117,7 @@
    left: 0;
    bottom: 0; */
   width: 100%;
-  background-color: #1F4DA1;
+  background-color: #1f4da1;
   color: #fff;
   text-align: center;
 }
