@@ -1,18 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
 .nav_urls {
   font-size: 20px;
 }
 
 #home {
   background-color: #e7e7de;
-  height: 500px;
+  height: 535px;
 }
-#home .container .row {
+#home .container div, #about .container .row {
   padding-top: 90px;
 }
 
 .home_image {
   width: 280px;
-  margin-left: auto;
 }
 
 .home_video {
@@ -21,6 +37,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.callUs{
+  font-weight: 700;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+}
+#call_icon{
+  transform: scaleX(-1);
 }
 
 .center {
@@ -36,17 +66,25 @@
   width: 100%;
 }
 
+
 .service_img{
   border-right: 1px solid black;
 }
 
 #about {
   background-color: white;
+  height: 535px;
 }
 .about_description {
   padding: 10px 25px;
   font-family: 'Raleway';
   font-size: 20px;
+}
+
+#service{
+  background-color: #e7e7de;
+  padding-top: 40px;
+  height: 535px;
 }
 
 .contact_details {
@@ -62,8 +100,11 @@
 
 #contact{
   background-color: #e7e7de;
+  height: 535px;
 }
-
+.add{
+  padding-right: 48px;
+}
 .contact_form{
   width: 460px;
 }
@@ -106,8 +147,7 @@
 
 .footer-2 {
   /* position: fixed;
-   left: 0;
-   bottom: 0; */
+  bottom: 0; */
   width: 100%;
   background-color: #1F4DA1;
   color: #fff;
@@ -121,9 +161,11 @@
 
 /*----------------Moto G5 / Galaxy S5----------------*/
 @media (min-device-width: 355px) and (max-device-width: 365px) {
-  #home {
-    height: 680px;
+  
+  #contact, #service, #about{
+    height: 100%;
   }
+
   .home_image {
     width: 280px;
     display: block;
@@ -143,15 +185,33 @@
   .main_card {
     margin-bottom: 20px;
   }
+  .contact_form{
+    width: 328px;
+  }
+  
   .service_img{
-    border-right: 1px solid black;
+    border-right: none;
+  }
+  .contact_circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_text{
+    text-align: center;
+  }
+  .add{
+    padding-right: 0px;
   }
 }
 
 /*----------------Pixel 2 / Pixel 2XL----------------*/
 @media (min-device-width: 410px) and (max-device-width: 415px) {
-  #home {
-    height: 680px;
+  #home{
+    height: 710px;
+  }
+  #contact, #service, #about{
+    height: 100%;
   }
   .home_image {
     width: 280px;
@@ -171,13 +231,31 @@
   }
   .main_card {
     margin-bottom: 20px;
+  }
+  .contact_form{
+    width: 377px;
+  }
+  
+  .contact_circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_text{
+    text-align: center;
+  }
+  .add{
+    padding-right: 0px;
   }
 }
 
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px) {
-  #home {
-    height: 680px;
+  #home{
+    height: 710px;
+  }
+  #contact, #service, #about{
+    height: 100%;
   }
   .home_image {
     width: 280px;
@@ -197,5 +275,21 @@
   }
   .main_card {
     margin-bottom: 20px;
+  }
+  
+  .contact_form{
+    width: 345px;
+  }
+  
+  .contact_circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_text{
+    text-align: center;
+  }
+  .add{
+    padding-right: 0px;
   }
 }
