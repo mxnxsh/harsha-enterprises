@@ -12,9 +12,6 @@ code {
     monospace;
 }
 
-
-
-
 .nav_urls {
   font-size: 20px;
 }
@@ -23,7 +20,8 @@ code {
   background-color: #e7e7de;
   height: 535px;
 }
-#home .container div, #about .container .row {
+#home .container div,
+#about .container .row {
   padding-top: 90px;
 }
 
@@ -39,7 +37,7 @@ code {
   margin-right: auto;
 }
 
-.callUs{
+.callUs {
   font-weight: 700;
   margin-top: 10px;
   display: block;
@@ -49,7 +47,7 @@ code {
   padding-right: 20px;
   border-radius: 25px;
 }
-#call_icon{
+#call_icon {
   transform: scaleX(-1);
 }
 
@@ -66,8 +64,7 @@ code {
   width: 100%;
 }
 
-
-.service_img{
+.service_img {
   border-right: 1px solid black;
 }
 
@@ -81,7 +78,7 @@ code {
   font-size: 20px;
 }
 
-#service{
+#service {
   background-color: #e7e7de;
   padding-top: 40px;
   height: 535px;
@@ -98,34 +95,34 @@ code {
     border-radius: 50%;
 } */
 
-#contact{
+#contact {
   background-color: #e7e7de;
   height: 535px;
 }
-.add{
+.add {
   padding-right: 48px;
 }
-.contact_form{
+.contact_form {
   width: 460px;
 }
 
-.contact{
+.contact {
   height: 80px;
   width: 80px;
   background-color: white;
   border-radius: 50%;
 }
-.contact > div{
+.contact > div {
   text-align: center;
   font-size: 30px;
   color: black;
   padding-bottom: 2px;
 }
-.contact > div > i{
+.contact > div > i {
   padding-top: 24px;
 }
 
-.contact_number{
+.contact_number {
   transform: scaleX(-1);
 }
 
@@ -149,7 +146,7 @@ code {
   /* position: fixed;
   bottom: 0; */
   width: 100%;
-  background-color: #1F4DA1;
+  background-color: #1f4da1;
   color: #fff;
   text-align: center;
 }
@@ -161,8 +158,9 @@ code {
 
 /*----------------Moto G5 / Galaxy S5----------------*/
 @media (min-device-width: 355px) and (max-device-width: 365px) {
-  
-  #contact, #service, #about{
+  #contact,
+  #service,
+  #about {
     height: 100%;
   }
 
@@ -185,32 +183,34 @@ code {
   .main_card {
     margin-bottom: 20px;
   }
-  .contact_form{
+  .contact_form {
     width: 328px;
   }
-  
-  .service_img{
+
+  .service_img {
     border-right: none;
   }
-  .contact_circle{
+  .contact_circle {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .contact_text{
+  .contact_text {
     text-align: center;
   }
-  .add{
+  .add {
     padding-right: 0px;
   }
 }
 
 /*----------------Pixel 2 / Pixel 2XL----------------*/
 @media (min-device-width: 410px) and (max-device-width: 415px) {
-  #home{
+  #home {
     height: 710px;
   }
-  #contact, #service, #about{
+  #contact,
+  #service,
+  #about {
     height: 100%;
   }
   .home_image {
@@ -232,29 +232,31 @@ code {
   .main_card {
     margin-bottom: 20px;
   }
-  .contact_form{
+  .contact_form {
     width: 377px;
   }
-  
-  .contact_circle{
+
+  .contact_circle {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .contact_text{
+  .contact_text {
     text-align: center;
   }
-  .add{
+  .add {
     padding-right: 0px;
   }
 }
 
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px) {
-  #home{
+  #home {
     height: 710px;
   }
-  #contact, #service, #about{
+  #contact,
+  #service,
+  #about {
     height: 100%;
   }
   .home_image {
@@ -276,20 +278,20 @@ code {
   .main_card {
     margin-bottom: 20px;
   }
-  
-  .contact_form{
+
+  .contact_form {
     width: 345px;
   }
-  
-  .contact_circle{
+
+  .contact_circle {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .contact_text{
+  .contact_text {
     text-align: center;
   }
-  .add{
+  .add {
     padding-right: 0px;
   }
 }
