@@ -68,7 +68,7 @@ function Contact() {
               </div>
             </div>
             <div className='col-md-6'>
-              <div className='jumbotron ml-auto contact_form bg-light pb-3'>
+              <div className='jumbotron ml-auto contact_form bg-light'>
                 <form>
                   <div className='form-group'>
                     <label htmlFor='exampleInputEmail1'>Full Name</label>
