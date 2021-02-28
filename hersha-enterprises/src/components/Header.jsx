@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
+    <>
     <nav
       className='navbar navbar-expand-lg navbar-light'
       style={{ backgroundColor: '#1F4DA1' }}
@@ -41,8 +42,9 @@ function Header() {
             <li className='nav-item  glow'>
               <Link
                 className='nav-link nav_urls'
-                to='/service'
+                to='#'
                 style={{ color: 'white' }}
+                data-toggle="modal" data-target="#exampleModal"
               >
                 Track Order
               </Link>
@@ -78,6 +80,33 @@ function Header() {
         </div>
       </div>
     </nav>
+
+    
+    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <div className="modal-header">
+            <h5 className="modal-title" id="exampleModalLabel">Harsha Enterprises</h5>
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <form action="">
+            <div className="form-group">
+              <label for="exampleInputOrderId">Enter Order Id to track</label>
+              <input type="text" className="form-control" id="exampleInputOrderId" placeholder="Order Id" />
+            </div>
+            </form>
+          </div>
+          <div className="modal-footer">
+            <button type="button" className="btn btn-primary">Track My Order</button>
+            <button type="button" className="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </>
   );
 }
 
