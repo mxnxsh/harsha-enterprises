@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Service from './Service';
 import Payment from "./Payment";
+import Contact from "./Contact";
 
 function Home() {
   return (
@@ -32,7 +33,7 @@ function Home() {
         </div>
         
       </section>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
+      <svg className="gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
         <path fill="#e7e7de" fill-opacity="1" d="M0,0L1440,0L1440,0L0,80Z"></path>
       </svg>
       <Service />
@@ -40,6 +41,10 @@ function Home() {
         <path fill="#e7e7de" fill-opacity="1" d="M0,80L1440,0L1440,80L0,80Z"></path>
       </svg>
       <Payment />
+      <svg className="gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
+        <path fill="#e7e7de" fill-opacity="1" d="M0,0L1440,0L1440,0L0,80Z"></path>
+      </svg>
+      <Contact />
       <Footer />
     </>
   );

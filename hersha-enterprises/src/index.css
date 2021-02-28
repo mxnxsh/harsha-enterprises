@@ -76,6 +76,7 @@ code {
 }
 .section-title {
   font-family: 'Raleway';
+  text-align: center;
 }
 
 .pop_img {
@@ -112,7 +113,7 @@ code {
 } */
 
 #contact {
-  background-color: #e7e7de;
+  background-color: white;
   height: 535px;
 }
 .add {
@@ -120,12 +121,13 @@ code {
 }
 .contact_form {
   width: 460px;
+  background-color: #e7e7de;
 }
 
 .contact {
   height: 80px;
   width: 80px;
-  background-color: white;
+  background-color: #e7e7de;
   border-radius: 50%;
 }
 .contact > div {
@@ -163,6 +165,7 @@ code {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 
 .footer-2 {
   /* position: fixed;
@@ -220,6 +223,13 @@ code {
   .add {
     padding-right: 0px;
   }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -7px;
+  }
 }
 
 /*----------------Pixel 2 / Pixel 2XL----------------*/
@@ -266,12 +276,19 @@ code {
   .add {
     padding-right: 0px;
   }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -5px;
+  }
 }
 
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px) {
   #home {
-    height: 710px;
+    height: 760px;
   }
   #contact,
   #service,
@@ -312,5 +329,12 @@ code {
   }
   .add {
     padding-right: 0px;
+  }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -7px;
   }
 }
