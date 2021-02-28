@@ -5,7 +5,7 @@ function Contact() {
     <>
       <section id='contact'>
         <div className='container pt-5'>
-            <h1 class="section-title">Contact Us</h1>
+          <h1 class='section-title'>Contact Us</h1>
           <div className='row pt-5 pb-3'>
             <div className='col-md-6'>
               <div className='row'>
@@ -88,7 +88,7 @@ function Contact() {
                       className='form-control'
                       id='exampleInputPassword1'
                     />
-                    <small classNamea='form-text text-muted'>
+                    <small className='form-text text-muted'>
                       We'll never share your details with anyone else.
                     </small>
                   </div>
