@@ -16,17 +16,36 @@ code {
   font-size: 20px;
 }
 
+.glow:hover{
+  background-color: #0a388d;
+}
+
 #home {
   background-color: #e7e7de;
-  height: 535px;
 }
-#home .container div,
+/* #home .container div,
 #about .container .row {
   padding-top: 90px;
+} */
+#home .container .row{
+  padding-top: 90px;
+  padding-bottom: 10px;
 }
 
 .home_image {
   width: 280px;
+}
+.text{
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.text h2{
+  font-family: "Ubuntu";
+}
+.text p{
+  font-family: "Roboto";
+  font-size: 19px;
 }
 
 .home_video {
@@ -57,6 +76,7 @@ code {
 }
 .section-title {
   font-family: 'Raleway';
+  text-align: center;
 }
 
 .pop_img {
@@ -64,9 +84,6 @@ code {
   width: 100%;
 }
 
-.service_img {
-  border-right: 1px solid black;
-}
 
 #about {
   background-color: white;
@@ -79,9 +96,9 @@ code {
 }
 
 #service {
-  background-color: #e7e7de;
+  background-color: white;
   padding-top: 40px;
-  height: 535px;
+  padding-bottom: 40px;
 }
 
 .contact_details {
@@ -96,7 +113,7 @@ code {
 } */
 
 #contact {
-  background-color: #e7e7de;
+  background-color: white;
   height: 535px;
 }
 .add {
@@ -104,12 +121,13 @@ code {
 }
 .contact_form {
   width: 460px;
+  background-color: #e7e7de;
 }
 
 .contact {
   height: 80px;
   width: 80px;
-  background-color: white;
+  background-color: #e7e7de;
   border-radius: 50%;
 }
 .contact > div {
@@ -141,6 +159,13 @@ code {
   font-size: 26px;
   border-radius: 50%;
 }
+
+#payment{
+  background-color: #e7e7de;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 
 .footer-2 {
   /* position: fixed;
@@ -187,9 +212,6 @@ code {
     width: 328px;
   }
 
-  .service_img {
-    border-right: none;
-  }
   .contact_circle {
     display: block;
     margin-left: auto;
@@ -200,6 +222,13 @@ code {
   }
   .add {
     padding-right: 0px;
+  }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -7px;
   }
 }
 
@@ -247,12 +276,19 @@ code {
   .add {
     padding-right: 0px;
   }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -5px;
+  }
 }
 
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px) {
   #home {
-    height: 710px;
+    height: 760px;
   }
   #contact,
   #service,
@@ -293,5 +329,12 @@ code {
   }
   .add {
     padding-right: 0px;
+  }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -7px;
   }
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import Footer from './Footer';
 
 function Contact() {
   return (
     <>
       <section id='contact'>
         <div className='container pt-5'>
+            <h1 class="section-title">Contact Us</h1>
           <div className='row pt-5 pb-3'>
             <div className='col-md-6'>
               <div className='row'>
@@ -68,7 +68,7 @@ function Contact() {
               </div>
             </div>
             <div className='col-md-6'>
-              <div className='jumbotron ml-auto contact_form bg-light pb-3'>
+              <div className='jumbotron ml-auto contact_form'>
                 <form>
                   <div className='form-group'>
                     <label htmlFor='exampleInputEmail1'>Full Name</label>
@@ -101,7 +101,6 @@ function Contact() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
