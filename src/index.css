@@ -227,7 +227,7 @@ code {
 }
 
 /*----------------Pixel 2 / Pixel 2XL----------------*/
-@media (min-device-width: 410px) and (max-device-width: 415px) {
+@media (min-device-width: 400px) and (max-device-width: 415px) {
   #home {
     height: 710px;
   }
