@@ -88,7 +88,7 @@ function Contact() {
                       className='form-control'
                       id='exampleInputPassword1'
                     />
-                    <small className='form-text text-muted'>
+                    <small classNamea='form-text text-muted'>
                       We'll never share your details with anyone else.
                     </small>
                   </div>

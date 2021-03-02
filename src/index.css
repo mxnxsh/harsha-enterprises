@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/*--------------header--------------*/
 .nav_urls {
   font-size: 20px;
 }
@@ -19,25 +19,9 @@ code {
 .glow:hover {
   background-color: #0a388d;
 }
-/* .grid_container {
-  display: grid;
-  grid-template-areas:
-    'header'
-    'main'
-    'footer';
-  grid-template-columns: 1fr;
-  grid-template-rows: 70px 1fr 40px;
-  height: 100vh;
-}
-header {
-  grid-area: header;
-}
-#main {
-  grid-area: main;
-}
-footer {
-  grid-area: footer;
-} */
+
+/*--------------home--------------*/
+
 #home {
   background-color: #e7e7de;
 }
@@ -118,20 +102,8 @@ footer {
   padding-bottom: 40px;
 }
 
-.contact_details {
-  position: fixed;
-  top: 70%;
-  right: 10px;
-}
-/* .contact_container{
-    background-color: white;
-    padding: 3px 5px;
-    border-radius: 50%;
-} */
-
 #contact {
   background-color: white;
-  height: 535px;
 }
 .add {
   padding-right: 48px;
@@ -161,6 +133,14 @@ footer {
   transform: scaleX(-1);
 }
 
+/* side floating menu */
+.contact_details {
+  position: fixed;
+  top: 70%;
+  right: 10px;
+  z-index: 999;
+}
+
 #whats_app {
   color: rgb(101, 216, 101);
   font-size: 30px;
@@ -184,8 +164,6 @@ footer {
 }
 
 .footer-2 {
-  /* position: fixed;
-  bottom: 0; */
   width: 100%;
   background-color: #1f4da1;
   color: #fff;

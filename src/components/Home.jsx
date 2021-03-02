@@ -37,6 +37,25 @@ function Home() {
           </div>
         </div>
       </section>
+      <div class='contact_details'>
+        <div class='contact_container'>
+          <a href='https://api.whatsapp.com/send?phone=+918087932393&text=Can you help me to deal with the property!!'>
+            <i id='whats_app' class='fab fa-whatsapp'></i>
+          </a>
+        </div>
+        <br />
+        <div class='contact_container'>
+          <a href='tel:+918087932393'>
+            <i id='call' class='fas fa-phone'></i>
+          </a>
+        </div>
+        <br />
+        <div class='contact_container'>
+          <a href='mailto:harshaenterprises879@gmail.com'>
+            <i id='gmail' class='fab fa-google'></i>
+          </a>
+        </div>
+      </div>
       <svg
         className='gray'
         xmlns='http://www.w3.org/2000/svg'

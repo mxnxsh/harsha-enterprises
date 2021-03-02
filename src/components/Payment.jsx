@@ -14,7 +14,7 @@ function Payment() {
                   src='./images/paytm_name.png'
                   alt='Paytm Logo Icon'
                 />
-                <h3 className='mt-2'>Hersha Enterprises</h3>
+                <h3 className='mt-2'>Harsha Enterprises</h3>
                 <h4 className='mt-2'>+91 9324739637</h4>
               </div>
               <div className='col-md-6'>
