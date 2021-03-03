@@ -68,7 +68,7 @@ function Home() {
         ></path>
       </svg>
       <Service />
-      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80'>
+      <svg className='gray_2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80'>
         <path
           fill='#e7e7de'
           fillOpacity='1'
