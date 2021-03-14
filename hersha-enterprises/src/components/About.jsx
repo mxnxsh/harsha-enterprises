@@ -24,7 +24,7 @@ function About() {
                   src='https://www.youtube.com/embed/J46t9FNaeDI'
                   frameborder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>

@@ -16,7 +16,7 @@ code {
   font-size: 20px;
 }
 
-.glow:hover{
+.glow:hover {
   background-color: #0a388d;
 }
 
@@ -29,7 +29,7 @@ code {
 #about .container .row {
   padding-top: 90px;
 } */
-#home .container .row{
+#home .container .row {
   padding-top: 90px;
   padding-bottom: 10px;
 }
@@ -37,16 +37,16 @@ code {
 .home_image {
   width: 280px;
 }
-.text{
+.text {
   padding-top: 30px;
   padding-left: 60px;
   padding-right: 60px;
 }
-.text h2{
-  font-family: "Ubuntu";
+.text h2 {
+  font-family: 'Ubuntu';
 }
-.text p{
-  font-family: "Roboto";
+.text p {
+  font-family: 'Roboto';
   font-size: 19px;
 }
 
@@ -85,7 +85,6 @@ code {
   height: 310px;
   width: 100%;
 }
-
 
 #about {
   background-color: white;
@@ -175,13 +174,12 @@ code {
   border-radius: 50%;
 }
 
-#payment{
+#payment {
   background-color: #e7e7de;
   padding-top: 40px;
   padding-bottom: 40px;
   height: 535px;
 }
-
 
 .footer-2 {
   width: 100%;
@@ -237,11 +235,11 @@ code {
   .add {
     padding-right: 0px;
   }
-  .paytm_qr{
+  .paytm_qr {
     margin-left: auto;
     margin-right: auto;
   }
-  .gray{
+  .gray {
     margin-top: -7px;
   }
 }
@@ -290,11 +288,11 @@ code {
   .add {
     padding-right: 0px;
   }
-  .paytm_qr{
+  .paytm_qr {
     margin-left: auto;
     margin-right: auto;
   }
-  .gray{
+  .gray {
     margin-top: -5px;
   }
 }
@@ -401,11 +399,11 @@ code {
   .add {
     padding-right: 0px;
   }
-  .paytm_qr{
+  .paytm_qr {
     margin-left: auto;
     margin-right: auto;
   }
-  .gray{
+  .gray {
     margin-top: -7px;
   }
 }

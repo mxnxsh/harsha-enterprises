@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "./Footer";
 
 function Payment(){
@@ -27,5 +26,3 @@ function Payment(){
         </>
     );
 }
-
-export default Payment;
