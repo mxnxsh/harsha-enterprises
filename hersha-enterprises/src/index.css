@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/*--------------header--------------*/
 .nav_urls {
   font-size: 20px;
 }
@@ -19,6 +19,8 @@ code {
 .glow:hover{
   background-color: #0a388d;
 }
+
+/*--------------home--------------*/
 
 #home {
   background-color: #e7e7de;
@@ -101,43 +103,56 @@ code {
   padding-bottom: 40px;
 }
 
-.contact_details {
-  position: fixed;
-  top: 70%;
-  right: 10px;
-}
-/* .contact_container{
-    background-color: white;
-    padding: 3px 5px;
-    border-radius: 50%;
-} */
+
 
 #contact {
-  background-color: white;
-  height: 535px;
+  background-color: #e7e7de;
 }
 .add {
   padding-right: 48px;
 }
 .contact_form {
   width: 460px;
-  background-color: #e7e7de;
+  background-color: white;
 }
 
 .contact {
-  height: 80px;
-  width: 80px;
-  background-color: #e7e7de;
+  height: 60px;
+  width: 60px;
+  background-color: white;
   border-radius: 50%;
 }
 .contact > div {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   padding-bottom: 2px;
 }
 .contact > div > i {
-  padding-top: 24px;
+  padding-top: 18px;
+}
+
+#contact_querry{
+  background-color: #e7e7de;
+}
+
+.contact2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 60px;
+  background-color: #e7e7de;
+  border-radius: 50%;
+}
+.contact2 > div {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  padding-bottom: 2px;
+}
+.contact2 > div > i {
+  padding-top: 18px;
 }
 
 .contact_number {
@@ -164,12 +179,11 @@ code {
   background-color: #e7e7de;
   padding-top: 40px;
   padding-bottom: 40px;
+  height: 535px;
 }
 
 
 .footer-2 {
-  /* position: fixed;
-  bottom: 0; */
   width: 100%;
   background-color: #1f4da1;
   color: #fff;
@@ -284,6 +298,63 @@ code {
     margin-top: -5px;
   }
 }
+
+/*----------------Poco F1----------------*/
+@media (min-device-width: 390px) and (max-device-width: 395px) {
+  #home {
+    height: 710px;
+  }
+  #contact,
+  #service,
+  #about {
+    height: 100%;
+  }
+  .home_image {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_video {
+    padding-top: 20px;
+    width: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home .container .row {
+    padding-top: 45px;
+  }
+  .main_card {
+    margin-bottom: 20px;
+  }
+  .contact_form {
+    width: 362px;
+  }
+
+  .contact_circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_text {
+    text-align: center;
+  }
+  .add {
+    padding-right: 0px;
+  }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -6px;
+  }
+  .gray_2{
+    margin-bottom: -1px;
+  }
+}
+
 
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px) {

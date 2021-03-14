@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function Payment(){
     return (
@@ -9,18 +10,20 @@ function Payment(){
                     <h1 class="section-title">Payment</h1>
                     <div className="row">
                         <div className="col-md-6">
-                            <img className="mt-5" src="./images/paytm_name.png" alt="Paytm Logo Icon" />
-                            <h3 className="mt-2">Hersha Enterprises</h3>
-                            <h4 className="mt-2">+91 9324739637</h4>
+                            <img className="mt-4" src="./images/paytm_name.png" alt="Paytm Logo Icon" /><br/><br/>
+                            <a href="https://paytm.business/link/17009/LL_312233302" className="btn btn-success">Pay with Paytm</a>
                         </div>
                         <div className="col-md-6">
-                            <img className="d-block ml-auto paytm_qr" src="./images/WhatsApp Image 2021-02-23 at 2.19.51 PM.jpeg" alt=""/>
+                        <img className="mt-5" src="./images/razorpay.png" alt="Paytm Logo Icon" /><br/><br/>
+                            <a href="" className="btn btn-success">Pay with RazorPay</a>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
+
+        <Footer />
         </>
     );
 }

@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Service from './Service';
 import Payment from "./Payment";
 import Contact from "./Contact";
+import Connect from './Connect';
 
 function Home() {
   return (
@@ -25,8 +26,8 @@ function Home() {
             </div>
 
             <div className="col-md-6 text">
-              <h2>Heading....</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <h2>Harsha Enterprises</h2>
+              <p>At Harsha Enterprises we are committed to make processing leave and license agreements easy and hassle free. We also bring you RERA consultation, Digital Signature Registration... All under one roof</p>
             </div>
 
           </div>
@@ -37,14 +38,10 @@ function Home() {
         <path fill="#e7e7de" fill-opacity="1" d="M0,0L1440,0L1440,0L0,80Z"></path>
       </svg>
       <Service />
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
+      <svg className="gray_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
         <path fill="#e7e7de" fill-opacity="1" d="M0,80L1440,0L1440,80L0,80Z"></path>
       </svg>
-      <Payment />
-      <svg className="gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
-        <path fill="#e7e7de" fill-opacity="1" d="M0,0L1440,0L1440,0L0,80Z"></path>
-      </svg>
-      <Contact />
+      <Connect />
       <Footer />
     </>
   );
