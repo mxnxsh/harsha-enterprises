@@ -6,7 +6,6 @@ function Contact() {
     <>
       <section id='contact'>
         <div className='container pt-5'>
-<<<<<<< HEAD
           <h1 className="section-title">Visit Us...</h1>
           <h4>Head Office @</h4>
           <div className="row">
@@ -16,29 +15,6 @@ function Contact() {
                   <div className='contact contact_circle'>
                     <div>
                       <i className='fas fa-map-marker-alt'></i>
-=======
-          <h1 class='section-title'>Contact Us</h1>
-          <div className='row pt-5 pb-3'>
-            <div className='col-md-6'>
-              <div className='row'>
-                <div className='col-md-12 mt-4 mb-3'>
-                  <div className='row'>
-                    <div className='col-sm-3'>
-                      <div className='contact contact_circle'>
-                        <div>
-                          <i className='fas fa-map-marker-alt'></i>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className='col-sm-9 contact_text'
-                      style={{ fontSize: '18px', fontWeight: '500' }}
-                    >
-                      <p className='add'>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                      </p>
->>>>>>> 3a3dfb4e0800b142ebc9fd6fc52b4a78c1af8ec8
                     </div>
                   </div>
                 </div>
@@ -112,7 +88,6 @@ function Contact() {
                   <div>
                     <i className='fab fa-google'></i>
                   </div>
-<<<<<<< HEAD
                 </div>
                 <p className='mt-2'>harshaenterprises879@gmail.com</p>
               </div>
@@ -120,20 +95,6 @@ function Contact() {
                 <div className='contact2 contact_circle'>
                   <div>
                     <i className='fas fa-phone'></i>
-=======
-                  <div className='form-group'>
-                    <label htmlFor='exampleInputPassword1'>
-                      Contact Number
-                    </label>
-                    <input
-                      type='number'
-                      className='form-control'
-                      id='exampleInputPassword1'
-                    />
-                    <small className='form-text text-muted'>
-                      We'll never share your details with anyone else.
-                    </small>
->>>>>>> 3a3dfb4e0800b142ebc9fd6fc52b4a78c1af8ec8
                   </div>
                 </div>
                 <p className='mt-2'>harshaenterprises879@gmail.com</p>

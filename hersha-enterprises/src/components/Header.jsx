@@ -53,12 +53,22 @@ function Header() {
               <li className='nav-item active glow'>
                 <Link
                   className='nav-link nav_urls'
+                  to='/payment'
+                  style={{ color: 'white' }}
+                >
+                  Payment
+                </Link>
+              </li>
+              <li className='nav-item active glow'>
+                <Link
+                  className='nav-link nav_urls'
                   to='/service'
                   style={{ color: 'white' }}
                 >
                   Service
                 </Link>
               </li>
+              
               <li className='nav-item active glow'>
                 <Link
                   className='nav-link nav_urls'

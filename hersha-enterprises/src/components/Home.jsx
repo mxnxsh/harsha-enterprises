@@ -3,6 +3,7 @@ import Service from './Service';
 import Payment from "./Payment";
 import Contact from "./Contact";
 import Connect from './Connect';
+import Footer from './Footer';
 
 function Home() {
   return (
