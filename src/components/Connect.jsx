@@ -87,7 +87,7 @@ function Connect() {
             </div>
             <div className='col-md-6'>
               <div className='jumbotron ml-auto contact_form'>
-              <h4 class="section-title">Submit a querry...</h4>
+              <h4 class="section-title">Submit a query...</h4>
                 <form>
                   <div className='form-group'>
                     <label htmlFor='exampleInputEmail1'>Full Name</label>
@@ -110,7 +110,7 @@ function Connect() {
                   </div>
                   <div className='form-group'>
                     <label htmlFor='exampleInputPassword1'>
-                      Querry
+                      Query
                     </label>
                     <textarea
                       type='text'
