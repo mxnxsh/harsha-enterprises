@@ -102,8 +102,6 @@ code {
   padding-bottom: 40px;
 }
 
-
-
 #contact {
   background-color: #e7e7de;
 }
@@ -131,7 +129,7 @@ code {
   padding-top: 18px;
 }
 
-#contact_querry{
+#contact_querry {
   background-color: #e7e7de;
 }
 
@@ -178,7 +176,7 @@ code {
   background-color: #e7e7de;
   padding-top: 40px;
   padding-bottom: 40px;
-  height: 535px;
+  height: 600px;
 }
 
 .footer-2 {
@@ -340,14 +338,14 @@ code {
   .add {
     padding-right: 0px;
   }
-  .paytm_qr{
+  .paytm_qr {
     margin-left: auto;
     margin-right: auto;
   }
-  .gray{
+  .gray {
     margin-top: -6px;
   }
-  .gray_2{
+  .gray_2 {
     margin-bottom: -1px;
   }
 }
@@ -396,18 +394,17 @@ code {
   .add {
     padding-right: 0px;
   }
-  .paytm_qr{
+  .paytm_qr {
     margin-left: auto;
     margin-right: auto;
   }
-  .gray{
+  .gray {
     margin-top: -6px;
   }
-  .gray_2{
+  .gray_2 {
     margin-bottom: -1px;
   }
 }
-
 
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px) {

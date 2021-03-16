@@ -160,10 +160,6 @@ function Contact() {
           </form>
         </div><br/>
       </section>
-
-      <Footer />
-
-
     </>
   );
 }

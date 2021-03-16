@@ -6,6 +6,7 @@ import Service from './Service';
 import Contact from './Contact';
 import Header from './Header';
 import Payment from './Payment';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/payment' component={Payment} />
         <Route exact path='/contact' component={Contact} />
       </Switch>
+      <Footer/>
     </>
   );
 }

@@ -51,13 +51,13 @@ function Header() {
                 </Link>
               </li>
               <li className='nav-item active glow'>
-                <Link
+                <a
                   className='nav-link nav_urls'
-                  to='/payment'
+                  href='/payment'
                   style={{ color: 'white' }}
                 >
                   Payment
-                </Link>
+                </a>
               </li>
               <li className='nav-item active glow'>
                 <Link

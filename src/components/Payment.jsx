@@ -35,12 +35,9 @@ function Payment(){
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
-        <Footer />
         </>
     );
 }
