@@ -45,7 +45,7 @@ function Payment(){
                             <a href="https://paytm.business/link/17009/LL_312233302" className="btn btn-primary">Pay with Paytm</a>
                         </div>
                         <div className="col-md-6">
-                            <img className="mt-5 mb-2" src="./images/razorpay.png" alt="Paytm Logo Icon" /><br/>
+                            <img className="mt-5 mb-2" src="./images/razorpay.png" alt="Razor Logo Icon" /><br/>
                             <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_Gm41wYmbl0dI84/view"
                                 data-text="Pay Now" data-color="#0046B8" data-size="large">                                
                             </div>
