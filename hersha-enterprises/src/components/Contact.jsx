@@ -119,7 +119,7 @@ function Contact() {
       </svg>
 
       <section id="contact_querry">
-          <h4 class="section-title p-3">Submit a querry...</h4>
+          <h4 class="section-title p-3">Submit a query...</h4>
         <div className='jumbotron mx-auto contact_form'>
           <form>
             <div className='form-group'>
@@ -143,7 +143,7 @@ function Contact() {
             </div>
             <div className='form-group'>
               <label htmlFor='exampleInputPassword1'>
-                Querry
+                Query
               </label>
               <textarea
                 type='text'
