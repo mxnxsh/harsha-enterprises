@@ -69,7 +69,7 @@ function Header() {
                 </Link>
               </li>
               
-              <li className='nav-item active glow'>
+              {/* <li className='nav-item active glow'>
                 <Link
                   className='nav-link nav_urls'
                   to='/about'
@@ -77,7 +77,7 @@ function Header() {
                 >
                   About Us
                 </Link>
-              </li>
+              </li> */}
               <li className='nav-item active glow'>
                 <Link
                   className='nav-link nav_urls'
