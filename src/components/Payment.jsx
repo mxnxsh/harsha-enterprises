@@ -1,8 +1,7 @@
-import Footer from "./Footer";
-
+import React, { useEffect } from 'react';
 function Payment(){
 
-    (function () {
+    useEffect(() => {
         var d = document;
         var x = !d.getElementById('razorpay-embed-btn-js')
         if (x) {
@@ -15,7 +14,21 @@ function Payment(){
             var rzp = window['_rzp_'];
             rzp && rzp.init && rzp.init()
         }
-    })(); 
+    }, [])
+    // (function () {
+        // var d = document;
+        // var x = !d.getElementById('razorpay-embed-btn-js')
+        // if (x) {
+        //     var s = d.createElement('script');
+        //     s.defer = !0;
+        //     s.id = 'razorpay-embed-btn-js';
+        //     s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js';
+        //     d.body.appendChild(s);
+        // } else {
+        //     var rzp = window['_rzp_'];
+        //     rzp && rzp.init && rzp.init()
+        // }
+    // })(); 
 
     return (
         <>
