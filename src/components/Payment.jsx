@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 function Payment(){
 
     useEffect(() => {
-        var d = document;
+        const f = () => {
+            var d = document;
         var x = !d.getElementById('razorpay-embed-btn-js')
         if (x) {
             var s = d.createElement('script');
@@ -14,6 +15,8 @@ function Payment(){
             var rzp = window['_rzp_'];
             rzp && rzp.init && rzp.init()
         }
+        }
+        f()
     }, [])
     // (function () {
         // var d = document;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Header() {
+  
   return (
     <>
       <nav
@@ -51,13 +52,13 @@ function Header() {
                 </Link>
               </li>
               <li className='nav-item active glow'>
-                <a
+                <Link
                   className='nav-link nav_urls'
-                  href='/payment'
+                  to='/payment'
                   style={{ color: 'white' }}
                 >
                   Payment
-                </a>
+                </Link>
               </li>
               <li className='nav-item active glow'>
                 <Link
