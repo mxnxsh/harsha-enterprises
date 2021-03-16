@@ -296,6 +296,61 @@ code {
     margin-top: -5px;
   }
 }
+/*----------------Poco F1----------------*/
+@media (min-device-width: 390px) and (max-device-width: 395px) {
+  #home {
+    height: 710px;
+  }
+  #contact,
+  #service,
+  #about {
+    height: 100%;
+  }
+  .home_image {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_video {
+    padding-top: 20px;
+    width: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #home .container .row {
+    padding-top: 45px;
+  }
+  .main_card {
+    margin-bottom: 20px;
+  }
+  .contact_form {
+    width: 362px;
+  }
+
+  .contact_circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact_text {
+    text-align: center;
+  }
+  .add {
+    padding-right: 0px;
+  }
+  .paytm_qr{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gray{
+    margin-top: -6px;
+  }
+  .gray_2{
+    margin-bottom: -1px;
+  }
+}
 
 /*----------------Poco F1----------------*/
 @media (min-device-width: 390px) and (max-device-width: 395px) {

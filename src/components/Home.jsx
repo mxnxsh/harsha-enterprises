@@ -46,8 +46,29 @@ function Home() {
         ></path>
       </svg>
       <Service />
+<<<<<<< HEAD
       <svg className="gray_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
         <path fill="#e7e7de" fill-opacity="1" d="M0,80L1440,0L1440,80L0,80Z"></path>
+=======
+      <svg className='gray_2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80'>
+        <path
+          fill='#e7e7de'
+          fillOpacity='1'
+          d='M0,80L1440,0L1440,80L0,80Z'
+        ></path>
+      </svg>
+      <Payment />
+      <svg
+        className='gray'
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox='0 0 1440 80'
+      >
+        <path
+          fill='#e7e7de'
+          fillOpacity='1'
+          d='M0,0L1440,0L1440,0L0,80Z'
+        ></path>
+>>>>>>> d6f4ab3e831af61bb4bb40047f15d6abc152f66b
       </svg>
       <Connect />
       <Footer />
