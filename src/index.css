@@ -179,6 +179,39 @@ code {
   height: 600px;
 }
 
+#rera, #rera_qna{
+  background-color: #e7e7de;
+}
+
+.main_process{
+  display: inline-flex;
+  flex-direction: row;
+}
+.main_process .process_round{
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 200px;
+  width: 200px;
+  margin-right: 103px;
+}
+.main_process .process_round:last-child{
+  margin-right: 0px;
+}
+.main_process .process_round h5{
+  margin: 74px 10px;
+  text-align: center;
+}
+
+.qna_form{
+  background-color: #fff;
+  border: 2px dashed black;
+  padding: 40px 20px;
+}
+
+#qna_form{
+  display: none;
+}
+
 .footer-2 {
   width: 100%;
   background-color: #1f4da1;
